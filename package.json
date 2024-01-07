@@ -1,0 +1,14 @@
+{
+  "name": "github",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:both": "npm-run-all --parallel start-backend start-frontend",
+    "start-backend": "cd ../calendar-backend && npm run deploy",
+    "start-frontend": "cd ../calendar-site && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
