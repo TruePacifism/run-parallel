@@ -8,6 +8,9 @@
     "start-backend": "cd ../calendar-backend && npm run deploy",
     "start-frontend": "cd ../calendar-site && npm start"
   },
+  "dependencies": {
+    "npm-run-all": "^2"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
